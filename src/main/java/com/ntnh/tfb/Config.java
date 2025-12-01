@@ -1,4 +1,4 @@
-package com.myname.mymodid;
+package com.ntnh.tfb;
 
 import java.io.File;
 

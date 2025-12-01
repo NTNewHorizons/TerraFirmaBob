@@ -10,13 +10,13 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLServerStartingEvent;
 
-@Mod(modid = MyMod.MODID, version = Tags.VERSION, name = "MyMod", acceptedMinecraftVersions = "[1.7.10]")
-public class MyMod {
+@Mod(modid = TFB.MODID, version = Tags.VERSION, name = "TFB", acceptedMinecraftVersions = "[1.7.10]")
+public class TFB {
 
-    public static final String MODID = "mymodid";
+    public static final String MODID = "tfb";
     public static final Logger LOG = LogManager.getLogger(MODID);
 
-    @SidedProxy(clientSide = "com.myname.mymodid.ClientProxy", serverSide = "com.myname.mymodid.CommonProxy")
+    @SidedProxy(clientSide = "com.myname.mymodid.ClientProxy", serverSide = "com.ntnh.tfb.CommonProxy")
     public static CommonProxy proxy;
 
     @Mod.EventHandler
