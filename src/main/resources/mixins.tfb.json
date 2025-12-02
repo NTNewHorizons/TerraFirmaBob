@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.ntnh.tfb.mixins", // Пакет, где находятся ваши миксины
+  "refmap": "mixins.tfb.refmap.json", // Имя refmap файла, генерируется автоматически GTNH Convention
+  "target": "@env(DEFAULT)", // Применяется всегда
+  "minVersion": "0.7.11", // Минимальная версия миксинов
+  "compatibilityLevel": "JAVA_8", // Уровень совместимости
+  "mixins": [ // Список классов миксинов
+    "MixinGenLayerBiomeEdge"
+  ],
+  "client": [ // Миксины, применяемые только на клиенте (если нужно)
+  ],
+  "server": [ // Миксины, применяемые только на сервере (если нужно)
+  ]
+}
