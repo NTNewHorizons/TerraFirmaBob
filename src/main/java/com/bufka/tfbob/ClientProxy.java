@@ -1,4 +1,4 @@
-package com.myname.mymodid;
+package com.bufka.tfbob;
 
 public class ClientProxy extends CommonProxy {
 

@@ -1,4 +1,4 @@
-package com.myname.mymodid;
+package com.bufka.tfbob;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -10,13 +10,13 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLServerStartingEvent;
 
-@Mod(modid = MyMod.MODID, version = Tags.VERSION, name = "MyMod", acceptedMinecraftVersions = "[1.7.10]")
-public class MyMod {
+@Mod(modid = TFBob.MODID, version = Tags.VERSION, name = "TerraFirmaBob", acceptedMinecraftVersions = "[1.7.10]")
+public class TFBob {
 
-    public static final String MODID = "mymodid";
+    public static final String MODID = "tfbob";
     public static final Logger LOG = LogManager.getLogger(MODID);
 
-    @SidedProxy(clientSide = "com.myname.mymodid.ClientProxy", serverSide = "com.myname.mymodid.CommonProxy")
+    @SidedProxy(clientSide = "com.bufka.tfbob.ClientProxy", serverSide = "com.bufka.tfbob.CommonProxy")
     public static CommonProxy proxy;
 
     @Mod.EventHandler

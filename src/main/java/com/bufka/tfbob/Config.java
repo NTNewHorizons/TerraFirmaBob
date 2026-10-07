@@ -1,4 +1,4 @@
-package com.myname.mymodid;
+package com.bufka.tfbob;
 
 import java.io.File;
 
